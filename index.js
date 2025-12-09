@@ -195,6 +195,7 @@ function cbPow(num, pow) {
 function cbAdd(a, b) {
   return a + b;
 }
+console.log('Task 8');
 console.log(mainFunc(2, 5, cbRandom)); // цілі числа в діапазоні 2..5
 console.log(mainFunc(2, 5, cbPow)); // 32
 console.log(mainFunc(2, 5, cbAdd)); // 7
